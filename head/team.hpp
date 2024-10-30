@@ -14,6 +14,6 @@ public:
     string getCountry();
     void changeRank(int newRank);
     int getRank();
-    void setOppent(Team oppent);
+    void setOppent(Team *oppent);
     
 };
