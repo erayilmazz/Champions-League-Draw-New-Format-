@@ -10,10 +10,10 @@ private:
 
 public:
     Team(std::string name, std::string country);
-    std::string getName();
-    std::string getCountry();
+    const std::string getName();
+    const std::string getCountry();
     void changeRank(int newRank);
-    int getRank();
+    const int getRank();
     void setOpponent(Team* opponent);
     
 };

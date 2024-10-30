@@ -7,6 +7,6 @@ private:
 
 public:
     void addTeam(Team* team);
-    std::vector <Team*> getTeams();
-    Team* getTeam(int num);
+    const std::vector <Team*> getTeams();
+    Team* getTeam(const int num);
 };
