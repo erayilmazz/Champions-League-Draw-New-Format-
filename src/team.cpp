@@ -1,6 +1,6 @@
 #include "../head/team.hpp"
 
-Team Team(std::string name, std::string country)
+Team::Team(std::string name, std::string country)
         ::name(name),country(country);
 
 string Team::getName() {return name;}
