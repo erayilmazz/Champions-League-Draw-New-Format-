@@ -3,10 +3,10 @@
 
 class Pot{
 private:
-    std::vector <*Team> teams;
+    std::vector <Team*> teams;
 
 public:
     void addTeam(Team* team);
-    std::vector getTeams();
+    std::vector <Team*> getTeams();
     Team* getTeam(int num);
 };
