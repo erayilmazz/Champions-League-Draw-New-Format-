@@ -6,7 +6,7 @@ private:
     std::string name;
     std::string country;
     int rank;
-    std::vector <opponents>;
+    std::vector <*opponent> opponents;
 
 public:
     Team(std::string name, std::string country);
