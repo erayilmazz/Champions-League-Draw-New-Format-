@@ -6,14 +6,14 @@ private:
     std::string name;
     std::string country;
     int rank;
-    std::vector <*opponent> opponents;
+    std::vector <Team*> opponents;
 
 public:
     Team(std::string name, std::string country);
-    string getName();
-    string getCountry();
+    std::string getName();
+    std::string getCountry();
     void changeRank(int newRank);
     int getRank();
-    void setOppent(Team *oppent);
+    void setOppent(Team* oppent);
     
 };
