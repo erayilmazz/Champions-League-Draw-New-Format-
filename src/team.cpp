@@ -7,4 +7,5 @@ const std::string Team::getName() {return name;}
 const std::string Team::getCountry() {return country;}
 void Team::changeRank(int newRank) {rank = newRank;}
 const int Team::getRank() {return rank;}
-void Team::setOpponent(Team *opponent) {opponents.push_back(opponent);}
+void Team::setHomeOpponent(Team *opponent) {homeOpponentsOpponents.push_back(opponent);}
+void Team::setAwayOpponent(Team *opponent) {awayOppenents.push_back(opponent);}
